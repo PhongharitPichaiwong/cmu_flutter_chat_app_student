@@ -58,7 +58,6 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
                     googleSignIn: GoogleSignIn(),
                   )),
           Provider<HomeProvider>(create: (_) => HomeProvider()),
-          Provider<ChatProvider>(create: (_) => ChatProvider()),
           /**
             * TODO: Add missing provider
             */
